@@ -1,6 +1,7 @@
 # somos_asesores
 
 
-index_somos_asesores.com
+index_somos_asesores.com static
+
 
 
