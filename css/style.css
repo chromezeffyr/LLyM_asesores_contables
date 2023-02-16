@@ -74,7 +74,7 @@
 
 /*** Navbar ***/
 .fixed-top {
-    transition: .5s;
+    transition: .3s;
 }
 
 .top-bar {
@@ -167,7 +167,7 @@
 @media (max-width: 768px) {
     #header-carousel .carousel-item {
         position: relative;
-        min-height: 450px;
+        min-height: 350px;
     }
     
     #header-carousel .carousel-item img {
@@ -246,11 +246,6 @@
 }
 
 
-/*** Donate ***/
-.donate {
-    background: rgba(0, 29, 35, .8);
-}
-
 .btn-group .btn-light:hover,
 .btn-group input[type="radio"]:checked+label {
     color: var(--primary);
@@ -262,7 +257,7 @@
 .team-item img {
     position: relative;
     top: 0;
-    transition: .5s;
+    transition: .3s;
 }
 
 .team-item:hover img {
@@ -272,7 +267,7 @@
 .team-item .team-text {
     position: relative;
     height: 100px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .team-item:hover .team-text {
@@ -352,7 +347,7 @@
 
 .testimonial-carousel .owl-item .testimonial-text *,
 .testimonial-carousel .owl-item .testimonial-item img {
-    transition: .5s;
+    transition: .3s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text * {
@@ -372,7 +367,7 @@
     display: flex;
     justify-content: space-between;
     opacity: 0;
-    transition: .5s;
+    transition: .3s;
     z-index: 1;
 }
 
@@ -386,7 +381,7 @@
     position: relative;
     color: var(--primary);
     font-size: 45px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
